@@ -1,7 +1,5 @@
 package shopping;
 
-import java.math.BigDecimal;
-
 public class Item {
 
   private String name;
