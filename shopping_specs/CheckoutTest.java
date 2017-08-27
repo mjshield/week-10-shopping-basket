@@ -64,7 +64,7 @@ public class CheckoutTest {
   }
 
   @Test
-  public void canApplyBothAllDiscounts() {
+  public void canApplyAllDiscounts() {
     basket.addItem(item1);
     basket.addItem(item1);
     basket.addItem(item2);
