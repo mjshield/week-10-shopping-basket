@@ -15,6 +15,10 @@ public class Basket {
     return item;
   }
 
+  public ArrayList<Item> getContents() {
+    return this.contents;
+  }
+
   public void addItem(Item item) {
     this.contents.add(item);
   }

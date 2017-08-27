@@ -41,4 +41,11 @@ public class ItemTest {
     assertEquals(true, item.getBogofReady());
   }
 
+  @Test
+  public void canSwitchBogofReadyTwice() {
+    item.switchBogofReady();
+    item.switchBogofReady();
+    assertEquals(false, item.getBogofReady());
+  }
+
 }

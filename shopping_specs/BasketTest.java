@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import shopping.*;
 
@@ -53,6 +54,11 @@ public class BasketTest {
     basket.addItem(item3);
     basket.emptyContents();
     assertEquals(0, basket.count());
+  }
+
+  @Test
+  public void canGetContentsArray() {
+    assertNotNull(basket.getContents());
   }
 
 }

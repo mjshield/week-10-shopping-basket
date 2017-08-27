@@ -31,10 +31,12 @@ public class Item {
   }
 
   public void switchBogofReady() {
-    if (this.bogofReady)
+    if (this.bogofReady) {
       this.bogofReady = false;
-    else if (!this.bogofReady)
+    }
+    else if (!this.bogofReady) {
       this.bogofReady = true;
+    }
   }
 
 
